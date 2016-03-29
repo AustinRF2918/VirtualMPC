@@ -1,0 +1,136 @@
+html{
+    
+}
+
+body{
+    position: static;
+    overflow: hidden;
+    background-color : #2B4B71 !important;
+}
+
+.page-header{
+
+    border-bottom: none !important;
+    text-align: center;
+}
+
+.page-header h1{
+    font-size: 3em;
+    color: white;
+
+}
+
+.page-header h2{
+ color:rgba(255,255,255,.3);
+    font-size: 2em;
+}
+
+.col-md-8{
+        background: #223D5B !important;
+
+}
+
+.jumbotron{
+        position: static;
+
+    background: #223D5B !important;
+   margin: 0 auto;
+    width: 70%;
+}
+
+.col-md-3{
+            position: fixed;
+color: white;
+ background:rgba(0,0,255,0.2);
+ height: 17%;
+ border-left: 2px solid #5486A7;
+ border-top: 2px solid #5486A7;
+
+}
+
+#pa13.col-md-3, #pa14.col-md-3, #pa15.col-md-3{
+    border-bottom: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa8.col-md-3, #pa16.col-md-3, #pa12.col-md-3{
+    border-right: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa16.col-md-3{
+    border-bottom: 2px solid #5486A7;
+    border-right: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa4.col-md-3{
+    border-right: 2px solid #5486A7;
+    border-top: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+    
+}
+
+.mpcContainer{
+
+    text-align: center;
+    position: static;
+    margin: 0 auto;
+    width: 55%;
+    height: 140%;
+}
+
+.row{
+    padding-top: 20px;
+}
+
+.col-md-3
+{
+        background-repeat: no-repeat;
+        background-position: 0% 150%;
+        background-size: 100% 100%;
+}
+
+#pa1 
+{
+    background-image: url("http://www.phawker.com/wp-content/uploads/2007/07/commonbe.jpg");
+}
+
+#pa2 
+{
+    background-image: url("http://3.bp.blogspot.com/-N2ua00CRPNg/VDuKiSszv-I/AAAAAAAAI54/6Ok3w1ckOpo/s1600/CommonTheLightImport.jpg");
+}
+
+#pa3
+{
+    background-image: url("https://images.rapgenius.com/30a4bf3850549987730100cd7dd571e0.850x755x1.jpg");
+}
+
+#pa4
+{
+    background-image: url("http://images.rapgenius.com/fd986aeac97bf60f2a6ad440bd6ff9ad.1000x1000x1.jpg") !important;
+}
+
+
+
+.mpcContainer p, h2{
+
+    cursor: default;
+     -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   -ms-user-select: none;
+   user-select: none;
+   
+            position: fixed;
+
+        position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}

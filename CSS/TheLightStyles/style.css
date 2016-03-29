@@ -1,0 +1,172 @@
+html{
+    
+}
+
+body{
+    position: static;
+    overflow: hidden;
+    background-color : #2B4B71 !important;
+}
+
+.side-nav {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    position: fixed;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #222;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+.sidebar-brand a, li
+{
+    width: 225px !important;
+}
+
+a:hover
+{
+    color: white !important;
+     background: black !important;
+}
+
+li:hover 
+{
+    color: white !important;
+     background: black !important;
+}
+
+#noHover li:hover
+{
+    background-color: #222 !important;
+     color: #9d9d9d !important;
+}
+
+#noHover a:hover
+{
+    background-color: #222 !important;
+     color: #9d9d9d !important;
+}
+
+
+a
+{
+    color: #9d9d9d !important;
+    text-align: left !important;
+}
+
+.page-header{
+
+    border-bottom: none !important;
+    text-align: center;
+}
+
+.page-header h1{
+    font-size: 3em;
+    color: white;
+
+}
+
+.page-header h2{
+ color:rgba(255,255,255,.3);
+    font-size: 2em;
+}
+
+.col-md-8{
+        background: #223D5B !important;
+
+}
+
+.jumbotron{
+    position: static;
+    background: #223D5B !important;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-xs-8
+{
+    left: -8.5%;
+}
+
+.col-md-3{
+            position: fixed;
+color: white;
+ background:rgba(0,0,255,0.2);
+ height: 17%;
+ border-left: 2px solid #5486A7;
+ border-top: 2px solid #5486A7;
+}
+
+
+
+#pa13.col-md-3, #pa14.col-md-3, #pa15.col-md-3{
+    border-bottom: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa8.col-md-3, #pa16.col-md-3, #pa12.col-md-3{
+    border-right: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa16.col-md-3{
+    border-bottom: 2px solid #5486A7;
+    border-right: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+}
+
+#pa4.col-md-3{
+    border-right: 2px solid #5486A7;
+    border-top: 2px solid #5486A7;
+ background:rgba(0,0,255,0.2);
+
+    
+}
+
+.mpcContainer{
+
+    padding-top : 0px;
+    text-align: center;
+    position: static;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.row{
+            background-image: url("http://3.bp.blogspot.com/-N2ua00CRPNg/VDuKiSszv-I/AAAAAAAAI54/6Ok3w1ckOpo/s1600/CommonTheLightImport.jpg");
+            background-repeat: no-repeat;
+            background-position: 0% 150%;
+            background-size: 100% 90%;
+}
+
+
+.mpcContainer p{
+
+    cursor: default;
+     -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+   
+            position: fixed;
+
+        position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
