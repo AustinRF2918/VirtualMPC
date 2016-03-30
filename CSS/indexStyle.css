@@ -5,7 +5,7 @@ html{
 body{
     position: static;
     overflow: hidden;
-    background-color : #2B4B71 !important;
+    background-color : black !important;
 }
 
 .page-header{
@@ -38,38 +38,31 @@ body{
     width: 70%;
 }
 
-.col-md-6{
-            position: fixed;
-color: white;
- background:rgba(0,0,255,0.2);
- height: 34%;
- border-left: 2px solid #5486A7;
- border-top: 2px solid #5486A7;
+.col-md-12{
+    z-index: 5;
+    position: absolute;
+    color: white;
+    background:rgba(0,0,255,0.2);
+    height: 34.5%;
 
 }
 
-#pa13.col-md-3, #pa14.col-md-3, #pa15.col-md-3{
-    border-bottom: 2px solid #5486A7;
+#pa13.col-md-12, #pa14.col-md-3, #pa15.col-md-3{
  background:rgba(0,0,255,0.2);
 
 }
 
-#pa8.col-md-3, #pa16.col-md-3, #pa12.col-md-3{
-    border-right: 2px solid #5486A7;
+#pa8.col-md-12, #pa16.col-md-3, #pa12.col-md-3{
  background:rgba(0,0,255,0.2);
 
 }
 
 #pa16.col-md-3{
-    border-bottom: 2px solid #5486A7;
-    border-right: 2px solid #5486A7;
  background:rgba(0,0,255,0.2);
 
 }
 
 #pa4.col-md-3{
-    border-right: 2px solid #5486A7;
-    border-top: 2px solid #5486A7;
  background:rgba(0,0,255,0.2);
 
     
@@ -88,34 +81,57 @@ color: white;
     padding-top: 20px;
 }
 
-.col-md-3
+
+.col-md-12:hover 
 {
-        background-repeat: no-repeat;
-        background-position: 0% 150%;
-        background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-color: black;
+    opacity: 50%;
+    background-repeat: no-repeat !important;
+    background-size: 50% !important;
 }
 
 #pa1 
 {
     background-image: url("http://www.phawker.com/wp-content/uploads/2007/07/commonbe.jpg");
+        background-size: 100% 100%;
 }
 
 #pa2 
 {
     background-image: url("http://3.bp.blogspot.com/-N2ua00CRPNg/VDuKiSszv-I/AAAAAAAAI54/6Ok3w1ckOpo/s1600/CommonTheLightImport.jpg");
+        background-size: 100% 100%;
 }
 
 #pa3
 {
     background-image: url("https://images.rapgenius.com/30a4bf3850549987730100cd7dd571e0.850x755x1.jpg");
+        background-size: 100% 100%;
 }
 
 #pa4
 {
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/5/56/Kanyewest_touchthesky.jpg") !important;
+    background-image: url("https://images.rapgenius.com/7154c6dafd6f6f883c099f033a4aa5e3.1000x1000x1.jpg") !important;
+        background-size: 100% 100%;
 }
 
+.col-md-6
+{
+    z-index: 2;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%
+    height: 100%
+}
 
+{
+     background: rgba(255, 255, 255, 0.5);
+}
+
+col-md-12:hover 
+{
+     opacity: .5 !important;
+}
 
 .mpcContainer p, h2{
 
